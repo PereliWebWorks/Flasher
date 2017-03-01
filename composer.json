@@ -1,0 +1,17 @@
+{
+    "name": "drewpereli/flasher",
+    "description": "Flash messages for php",
+    "homepage": "https://github.com/drewpereli/flasher",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Drew Pereli",
+            "email": "drewpereli@gmail.com",
+            "homepage": "drewpereli.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "classmap": ["flasher.php"]
+    }
+}
