@@ -3,7 +3,7 @@
 class Flasher
 {
     private static $MESSAGE_PREFIX = 'drewpereli_flash_messages';
-    $types = array("success", "info", "warning", "danger");
+    private static $types = array("success", "info", "warning", "danger");
 
     //Returns true if type is in self::types.
     static function has($type)
