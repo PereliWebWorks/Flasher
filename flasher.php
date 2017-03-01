@@ -14,7 +14,7 @@ class Flasher
     //Returns true only if at least one flash message is set
     static function hasMessage()
     {
-        foreach (self::types as $type)
+        foreach (self::$types as $type)
         {
             if (self::has($type)) return true;
         }
