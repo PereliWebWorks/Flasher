@@ -56,7 +56,7 @@ class Flasher
     }
 
     function __construct($extra_types){
-        self::types = array_merge(self::types, $extra_types);
+        self::$types = array_merge(self::types, $extra_types);
     }
 }
 
