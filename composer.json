@@ -2,6 +2,7 @@
     "name": "drewpereli/flasher",
     "description": "Flash messages for php",
     "homepage": "https://github.com/drewpereli/flasher",
+    "liscense": "MIT",
     "authors": [
         {
             "name": "Drew Pereli",
