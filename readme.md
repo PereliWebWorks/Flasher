@@ -10,9 +10,9 @@ Or [download the source](github.com/drewpereli/flasher) from github.
 
 ##Useage
 Flasher is super easy to use! On any php file you'd like to use flahser in, include it by requiring the composer autoloader.
-~~~
+```php
 require_once "path/to/vendor/autoload.php";
-~~~
+```
 If you're not using composer, simply include or require the file "flasher.php" in any file that uses the flasher.
 ~~~
 require_once "path/to/flasher/flasher.php";
@@ -45,8 +45,9 @@ $message = $flasher->message_type; //null
 ~~~
 
 #Full method list
-**set(type, message)*: Sets message of "type" to "message".
-**get(type)*: Returns and unsets the message of "type".
+-*set(type, message)*: Sets message of "type" to "message".
+
+-*get(type)*: Returns and unsets the message of "type".
 **peek(type)*: Returns the message of "type" without unsetting it.
 **flash(type)*: Equivalent to "echo get(type);".
 **has(type)*: Returns true if a message of "type" has been set. Otherwise returns false.
