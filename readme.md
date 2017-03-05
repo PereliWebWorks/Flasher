@@ -47,6 +47,7 @@ $message = $flasher->message_type; //null
 #Full method list
 - **set(type, message)**: Sets message of "type" to "message".
 - **get(type)**: Returns and unsets the message of "type".
+- **getAll()**: Returns an array of all messages, indexed by type. Unsets all messages.
 - **peek(type)**: Returns the message of "type" without unsetting it.
 - **flash(type)**: Equivalent to "echo get(type);".
 - **has(type)**: Returns true if a message of "type" has been set. Otherwise returns false.
