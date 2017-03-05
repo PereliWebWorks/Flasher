@@ -13,7 +13,7 @@ class Flasher
 
 
     //Returns true only if at least one flash message is set
-    function hasMessage()
+    function hasAny()
     {
         return sizeof($_SESSION[self::$MESSAGE_PREFIX]) > 0;
     }
@@ -59,7 +59,7 @@ class Flasher
     }
 
     function __get($type){
-        $this->get($type);
+        return $this->get($type);
     }
 
     function __construct(){
