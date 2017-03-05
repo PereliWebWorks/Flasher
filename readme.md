@@ -8,7 +8,7 @@ composer install drewpereli/flasher
 ~~~
 Or [download the source](github.com/drewpereli/flasher) from github.
 
-##Useage
+##Usage
 Flasher is super easy to use! On any php file you'd like to use flahser in, include it by requiring the composer autoloader.
 ```php
 require_once "path/to/vendor/autoload.php";
@@ -40,7 +40,7 @@ As soon as you "get" a message, it will be removed.
 You can also use magic methods!
 ```php
 $flasher->message_type = "your message here!";
-$message = $flasher->message_type; //"Your message here"
+$message = $flasher->message_type; //"Your message here!"
 $message = $flasher->message_type; //null
 ```
 
