@@ -1,8 +1,8 @@
-#Flasher
+# Flasher
 
 This is a very small package that makes it easy to implement flash message.
 
-##Installation
+## Installation
 
 Install with composer.
 ~~~
@@ -10,7 +10,7 @@ composer require drewpereli/flasher
 ~~~
 Or [download the source](github.com/drewpereli/flasher) from github.
 
-##Usage
+## Usage
 Flasher is super easy to use! On any php file you'd like to use flahser in, include it by requiring the composer autoloader.
 ```php
 require_once "path/to/vendor/autoload.php";
@@ -46,7 +46,7 @@ $message = $flasher->message_type; //"Your message here!"
 $message = $flasher->message_type; //null
 ```
 
-#Full method list
+# Full method list
 - **set(type, message)**: Sets message of "type" to "message".
 - **get(type)**: Returns and unsets the message of "type".
 - **getAll()**: Returns an array of all messages, indexed by type. Unsets all messages.
