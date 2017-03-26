@@ -71,6 +71,9 @@ class Flasher
 
     function __construct(){
         session_start();
+        if (!isset($_SESSION[self::$MESSAGE_PREFIX])){
+            $_SESSION[self::$MESSAGE_PREFIX] = array();
+        }
     }
 }
 

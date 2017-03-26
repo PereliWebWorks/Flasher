@@ -4,7 +4,7 @@ This is a very small package that makes it easy to implement flash message.
 ##Installation
 Install with composer.
 ~~~
-composer install drewpereli/flasher
+composer require drewpereli/flasher
 ~~~
 Or [download the source](github.com/drewpereli/flasher) from github.
 
